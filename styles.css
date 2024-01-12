@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.title-section {
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.title-section:hover {
+    color: #ff8800; /* Change to your desired hover color */
+    transform: scale(1.5); /* Increase the size on hover */
+}
+
+.active .section-content {
+    display: block;
+}
+
+.section-content {
+    display: none;
+}
+
+
